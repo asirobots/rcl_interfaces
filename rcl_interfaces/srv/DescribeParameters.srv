@@ -1,0 +1,7 @@
+# A list of parameters of which to get the description.
+string[] names
+
+---
+
+# A list of the descriptions of all parameters under the parameter_group.
+ParameterDescription[] descriptions

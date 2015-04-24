@@ -1,5 +1,5 @@
 # A list of parameters of which to get the value.
-rcl_interfaces/ParameterDescription[] parameter_descriptions
+string[] names
 
 ---
 

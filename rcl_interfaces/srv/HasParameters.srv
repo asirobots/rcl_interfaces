@@ -1,8 +1,7 @@
 # Parameter to test if it exists.
-rcl_interfaces/ParameterDescription[] parameter_descriptions
+string[] names
 
 ---
 
-# Whether each requested parameter exists or not.
-# Each element corresponds to the list in the request.
-bool[] result
+# Return the ParameterDescription for the requested elements, truncated for missing.
+rcl_interfaces/ParameterDescription[] result
